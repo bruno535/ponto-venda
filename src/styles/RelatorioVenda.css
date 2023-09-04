@@ -1,0 +1,60 @@
+.relatorios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+.containerR {
+    padding: 20px;
+}
+
+.rNome {
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* FiltroDia.css */
+
+.filtroDia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.filtroDia label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.filtroDia input {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+    outline: none;
+    width: 130px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.filtroDia input:hover,
+.filtroDia input:focus {
+    border-color: #666;
+    background-color: #fff;
+}
+
+.itensVenda {
+    border: 5px solid #f5f5f5;
+}

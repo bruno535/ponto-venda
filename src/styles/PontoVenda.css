@@ -1,0 +1,116 @@
+/* Estilos para modos de cores */
+.claro {
+    background-color: #fff;
+}
+
+.escuro {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para a seção de busca */
+.buscar {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.buscar input {
+    width: 80%;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.buscar button {
+    width: 20%;
+}
+
+/* Estilos para a seção de finalização */
+.finalizar {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.finalizar p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.finalizar em {
+    font-size: 3.5rem;
+    color: #2196f3;
+}
+
+.finalizar button {
+    margin-right: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.finalizar button:last-child {
+    margin-right: 0;
+}
+
+/* Estilos para os métodos de pagamento */
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.payment-methods label {
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-methods input[type='radio'] {
+    display: none;
+}
+
+.payment-methods label:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o input de finalização do pagamento */
+.payment-end {
+    margin: 5px;
+}
+
+.payment-end input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para os botões de ação */
+.buttons button {
+    margin-right: 5px;
+    border: 1px solid #2196f3;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #2196f3;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: transparent;
+    color: #2196f3;
+    border: 1px solid #2196f3;
+}
+
+.buttons button:last-child {
+    margin-right: 0;
+}

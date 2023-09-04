@@ -1,0 +1,26 @@
+/* Estilos para as ações */
+.acoes div {
+    display: flex;
+    justify-content: center;
+}
+
+td.nomeE {
+    min-width: 200px;
+    max-width: 200px;
+    overflow: auto;
+}
+
+.pesquisa {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.pesquisa input {
+    width: 80%;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.pesquisa button {
+    width: 20%;
+}
